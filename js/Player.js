@@ -15,7 +15,7 @@ class Player {
     
   
     display() {
-      let pos = this.body.position;
+      var pos = this.body.position;
   
       push();
       translate(pos.x, pos.y);
